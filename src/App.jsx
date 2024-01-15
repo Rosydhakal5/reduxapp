@@ -7,7 +7,7 @@ import { addTodo } from "./todoSlice";
 function App(){
   const [todoName, setTodoName] = useState();
   const dispatch = useDispatch();
-  const [todos, setTodos] = useState([]);
+  // const [todos, setTodos] = useState([]);
 
 
   const handleSubmit = (e) => {
