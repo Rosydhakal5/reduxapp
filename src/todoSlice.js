@@ -5,6 +5,7 @@ const todoSlice = createSlice({
     reducers:{
         addTodo: (state, action) =>{
         console.log(state, action);
+        state.push(action.payload);
         },
     }
 });
